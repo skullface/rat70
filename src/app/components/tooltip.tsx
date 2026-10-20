@@ -29,12 +29,12 @@ export function Tooltip({
 
   return (
     <Wrapper
-      className={["group relative", className].filter(Boolean).join(" ")}
+      className={`group relative ${className}`}
       style={style}
     >
-      <span tabIndex={0} aria-describedby={id} className={triggerClassName}>
+      <button aria-describedby={id} className={`block cursor-help background-transparent appearance-none ${triggerClassName}`}>
         {children}
-      </span>
+      </button>
       <span
         id={id}
         role="tooltip"
