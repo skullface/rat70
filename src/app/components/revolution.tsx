@@ -134,7 +134,7 @@ export default function PoemRevolutionInOurLifetime() {
                 return (
                   <Tooltip
                     key={lineInStanza}
-                    className="poem-line block"
+                    className="poem-line block z-50 isolate"
                     style={lineStyle}
                     triggerClassName="cursor-help border-b-2 border-dotted border-(--lime)"
                     panelClassName="top-full left-0 mt-2"
@@ -172,13 +172,6 @@ export default function PoemRevolutionInOurLifetime() {
         width={261}
         height={626}
         className="absolute bottom-0 -ml-72"
-      />
-      <Image
-        src="/rat.gif"
-        alt=""
-        width={100}
-        height={97}
-        className="absolute bottom-0"
       />
     </section>
   );
