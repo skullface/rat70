@@ -46,8 +46,7 @@ export function BreadAndRosesPhotos() {
               aria-label={`Show photograph ${index + 1} of ${PHOTOS.length}`}
               onClick={() => setFeaturedIndex(index)}
               className={[
-                "cursor-pointer invert",
-                selected ? "opacity-100" : "opacity-40 hover:opacity-100",
+                selected ? "opacity-100" : "cursor-zoom-in opacity-40 hover:opacity-100",
               ].join(" ")}
             >
               <Image src={photo.src} alt="" width={1600} height={1016} />
