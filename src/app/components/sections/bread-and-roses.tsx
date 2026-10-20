@@ -1,5 +1,5 @@
 import Image from "next/image";
-import { BreadAndRosesPhotos } from "./bread-and-roses-photos";
+import { BreadAndRosesPhotos } from "../photos";
 
 export default function BreadAndRoses() {
   return (

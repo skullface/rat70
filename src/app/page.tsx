@@ -1,11 +1,11 @@
 import Image from "next/image";
-import Header from "./components/header";
-import Footer from "./components/footer";
-import About from "./components/about";
-import BreadAndRoses from "./components/bread-and-roses";
-import PoemRevolutionInOurLifetime from "./components/revolution";
-import PoemEpitaph from "./components/epitaph";
-import PresentFuture from "./components/present-future";
+import Header from "./components/sections/header";
+import Footer from "./components/sections/footer";
+import About from "./components/sections/about";
+import BreadAndRoses from "./components/sections/bread-and-roses";
+import PoemRevolutionInOurLifetime from "./components/sections/revolution";
+import PoemEpitaph from "./components/sections/epitaph";
+import PresentFuture from "./components/sections/present-future";
 
 export default function Home() {
   return (

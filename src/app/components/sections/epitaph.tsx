@@ -1,6 +1,6 @@
 import type { ReactNode } from "react";
-import { EpitaphLines } from "./epitaph-lines";
-import { StatueLiberty } from "./statue-liberty";
+import { EpitaphLines } from "../epitaph-lines";
+import { StatueLiberty } from "../statue-liberty";
 import Image from "next/image";
 
 const POEM: ReactNode[][] = [

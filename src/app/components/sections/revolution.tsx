@@ -1,6 +1,6 @@
 import Image from "next/image";
 import type { CSSProperties } from "react";
-import { Tooltip } from "./tooltip";
+import { Tooltip } from "../tooltip";
 
 const POEM: string[][] = [
   [

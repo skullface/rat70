@@ -1,5 +1,3 @@
-import About from "./about";
-
 export default async function Footer() {
   return (
     <footer className="ml-16 mb-12 font-mono text-xs">
