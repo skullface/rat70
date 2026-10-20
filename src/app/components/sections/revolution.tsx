@@ -98,7 +98,7 @@ export default function PoemRevolutionInOurLifetime() {
       <Tooltip
         as="div"
         className="z-10 -mt-24 -ml-26"
-        triggerClassName="block cursor-help"
+        triggerClassName="border-none"
         panelClassName="top-1/2 right-full lg:left-full -translate-y-1/2"
         content={
           <Image
@@ -136,7 +136,7 @@ export default function PoemRevolutionInOurLifetime() {
                     key={lineInStanza}
                     className="poem-line block z-50 isolate"
                     style={lineStyle}
-                    triggerClassName="cursor-help border-b-2 border-dotted border-(--lime)"
+                    triggerClassName="border-b-2 border-dotted border-(--lime)"
                     panelClassName="top-full left-0 mt-2"
                     content={
                       <Image

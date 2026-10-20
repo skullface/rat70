@@ -42,6 +42,12 @@ img {
   user-select: none;
 }
 
+button:focus-visible,
+a:focus-visible {
+  outline: 2px solid var(--lime);
+  outline-offset: 2px;
+}
+
 [data-text="revolution"] .poem-line {
   opacity: 0;
   animation: poem-line-in 120ms ease-out forwards;
