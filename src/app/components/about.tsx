@@ -23,8 +23,28 @@ export default async function Bibliography() {
             >
               <i>Roz Payne Sixties Archive</i>
             </a>
-            , except for the Bread and Roses speech image copyright Jeff
-            Albertson.
+            , except for the photographs copyright Jeff Albertson (
+            <a
+              className="underline decoration-(--foreground)/25 hover:decoration-background decoration-1 underline-offset-2 hover:text-background"
+              href="https://credo.library.umass.edu/view/full/muph057-b003-sl411-i022"
+            >
+              1
+            </a>
+            ,{" "}
+            <a
+              className="underline decoration-(--foreground)/25 hover:decoration-background decoration-1 underline-offset-2 hover:text-background"
+              href="https://credo.library.umass.edu/view/full/muph057-b003-sl411-i023"
+            >
+              2
+            </a>
+            ,{" "}
+            <a
+              className="underline decoration-(--foreground)/25 hover:decoration-background decoration-1 underline-offset-2 hover:text-background"
+              href="https://credo.library.umass.edu/view/full/muph057-b003-sl412-i009"
+            >
+              3
+            </a>
+            ).
           </p>
           <Image
             src="/publication.png"

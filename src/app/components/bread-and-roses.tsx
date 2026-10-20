@@ -1,24 +1,10 @@
 import Image from "next/image";
-import { Tooltip } from "./tooltip";
+import { BreadAndRosesPhotos } from "./bread-and-roses-photos";
 
-export default async function BreadAndRoses() {
+export default function BreadAndRoses() {
   return (
     <section className="p-12 bg-foreground text-background text-lg -mt-1.5 lg:ml-16 max-w-prose relative">
-      <Tooltip
-        as="div"
-        className="mb-6"
-        panelClassName="top-1/2 -translate-y-1/2 left-1/2 -translate-x-1/2 mt-2 bg-background! text-foreground!"
-        content="35mm photograph by Jeff Albertson. “Anti-war rally at Soldier’s Field, Harvard University: members of feminist group Bread and Roses speaking while wearing masks,” May 8, 1970."
-      >
-        <a href="https://credo.library.umass.edu/view/full/muph057-b003-sl411-i025">
-          <Image
-            src="/bread-and-roses-speech.jpg"
-            alt=""
-            width={1600}
-            height={1071}
-          />
-        </a>
-      </Tooltip>
+      <BreadAndRosesPhotos />
       <div className="text-sm font-sans mb-6 [&_a]:underline [&_a]:decoration-(--lime) [&_a]:underline-offset-2 [&_a]:hover:decoration-background/50 text-justify">
         <p>
           In response to the American invasion of Cambodia, the resumption of
@@ -32,7 +18,7 @@ export default async function BreadAndRoses() {
           </a>
           , postering and stickering, to Technology Square, a major center of
           military and imperialist research for M.I.T. and Harvard.{" "}
-          <a href="https://www.degruyterbrill.com/document/doi/10.18574/nyu/9780814707647.003.0006/html">
+          <a href="https://www.thecrimson.com/article/1970/5/8/boston-strikers-will-rally-here-pboston-area/">
             The next day, the following speech was given by Bread and Roses
             women at a National Student Strike rally at Harvard Stadium
           </a>
