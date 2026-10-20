@@ -5,20 +5,20 @@ export default function BreadAndRoses() {
   return (
     <section className="p-12 bg-foreground text-background text-lg -mt-1.5 lg:ml-16 max-w-prose relative">
       <BreadAndRosesPhotos />
-      <div className="text-sm font-sans mb-6 [&_a]:underline [&_a]:decoration-lime [&_a]:underline-offset-2 [&_a]:hover:decoration-background/50 text-justify">
+      <div className="text-sm font-sans mb-6 [&_a]:underline [&_a]:decoration-lime [&_a]:underline-offset-2 [&_a]:hover:bg-lime [&_a]:hover:no-underline [&_a]:hover:text-foreground text-justify">
         <p>
           In response to the American invasion of Cambodia, the resumption of
           bombing of North Vietnam, the repression of the Panthers, and the
           murders of the Kent State students, Bread and Roses women working with
           other women's groups in the Boston area, decided to have an
           independent women’s action.{" "}
-          <a href="https://www.thecrimson.com/article/1970/5/8/500-women-demonstrators-march-through-cambridge/">
+          <a href="https://www.thecrimson.com/article/1970/5/8/500-women-demonstrators-march-through-cambridge/" target="_blank">
             On May 7, 500 women held a rally on Cambridge Commons without a
             permit and marched through Cambridge
           </a>
           , postering and stickering, to Technology Square, a major center of
           military and imperialist research for M.I.T. and Harvard.{" "}
-          <a href="https://www.thecrimson.com/article/1970/5/8/boston-strikers-will-rally-here-pboston-area/">
+          <a href="https://www.thecrimson.com/article/1970/5/8/boston-strikers-will-rally-here-pboston-area/" target="_blank">
             The next day, the following speech was given by Bread and Roses
             women at a National Student Strike rally at Harvard Stadium
           </a>

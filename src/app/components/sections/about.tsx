@@ -14,33 +14,29 @@ export default async function Bibliography() {
         </p>
 
         <div className="flex flex-col lg:flex-row gap-4">
-          <p>
+          <p className="[&_a]:underline [&_a]:decoration-(--foreground)/25 [&_a]:underline-offset-2 [&_a]:hover:bg-background [&_a]:hover:no-underline [&_a]:hover:text-foreground [&_a]:focus-visible:outline-background!">
             Images and text on this page sourced from the “May 22–June 4, 1970”
             issue of RAT, courtesy of the{" "}
             <a
-              href="https://rozsixties.unl.edu/items/show/718"
-              className="underline decoration-(--foreground)/25 hover:decoration-(--background) decoration-1 underline-offset-2 hover:text-(--background) focus-visible:outline-(--background)!"
+              href="https://rozsixties.unl.edu/items/show/718" target="_blank"
             >
               <i>Roz Payne Sixties Archive</i>
             </a>
             , except for the photographs copyright Jeff Albertson (
             <a
-              className="underline decoration-(--foreground)/25 hover:decoration-(--background) decoration-1 underline-offset-2 hover:text-(--background) focus-visible:outline-(--background)!"
-              href="https://credo.library.umass.edu/view/full/muph057-b003-sl411-i022"
+              href="https://credo.library.umass.edu/view/full/muph057-b003-sl411-i022" target="_blank"
             >
               1
             </a>
             ,{" "}
             <a
-              className="underline decoration-(--foreground)/25 hover:decoration-(--background) decoration-1 underline-offset-2 hover:text-(--background) focus-visible:outline-(--background)!"
-              href="https://credo.library.umass.edu/view/full/muph057-b003-sl411-i023"
+              href="https://credo.library.umass.edu/view/full/muph057-b003-sl411-i023" target="_blank"
             >
               2
             </a>
             ,{" "}
             <a
-              className="underline decoration-(--foreground)/25 hover:decoration-(--background) decoration-1 underline-offset-2 hover:text-(--background) focus-visible:outline-(--background)!"
-              href="https://credo.library.umass.edu/view/full/muph057-b003-sl412-i009"
+              href="https://credo.library.umass.edu/view/full/muph057-b003-sl412-i009" target="_blank"
             >
               3
             </a>
