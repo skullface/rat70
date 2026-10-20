@@ -5,7 +5,7 @@ export default function BreadAndRoses() {
   return (
     <section className="p-12 bg-foreground text-background text-lg -mt-1.5 lg:ml-16 max-w-prose relative">
       <BreadAndRosesPhotos />
-      <div className="text-sm font-sans mb-6 [&_a]:underline [&_a]:decoration-(--lime) [&_a]:underline-offset-2 [&_a]:hover:decoration-background/50 text-justify">
+      <div className="text-sm font-sans mb-6 [&_a]:underline [&_a]:decoration-lime [&_a]:underline-offset-2 [&_a]:hover:decoration-background/50 text-justify">
         <p>
           In response to the American invasion of Cambodia, the resumption of
           bombing of North Vietnam, the repression of the Panthers, and the

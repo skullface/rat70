@@ -3,7 +3,7 @@ import Image from "next/image";
 export default async function Bibliography() {
   return (
     <section>
-      <div className="max-w-prose p-12 lg:ml-16 mb-6 font-sans bg-(--lime) text-foreground grid grid-cols-1 gap-6">
+      <div className="max-w-prose p-12 lg:ml-16 mb-6 font-sans bg-lime text-foreground grid grid-cols-1 gap-6">
         <p>
           <i>RAT</i>, short for <i>RAT Subterranean News</i> and later{" "}
           <i>Women’s LibeRATion</i>, was created in March 1968 in as New York

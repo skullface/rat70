@@ -136,7 +136,7 @@ export default function PoemRevolutionInOurLifetime() {
                     key={lineInStanza}
                     className="poem-line block z-50 isolate"
                     style={lineStyle}
-                    triggerClassName="border-b-2 border-dotted border-(--lime)"
+                    triggerClassName="border-b-2 border-dotted border-lime"
                     panelClassName="top-full left-0 mt-2"
                     content={
                       <Image
